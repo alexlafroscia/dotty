@@ -1,8 +1,32 @@
 {
-  "name": "bootstrap",
+  "name": "dotty",
   "version": "1.0.0",
   "description": "Programmatically configure your development environment",
   "main": "index.js",
   "author": "Alex LaFroscia <alex@lafroscia.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">= 9"
+  },
+  "bin": "./index.js",
+  "scripts": {
+    "build": "pkg . --targets macos",
+    "lint": "eslint .",
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "eslint": "^4.14.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-ava": "^4.4.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "pkg": "^4.3.0-beta.5",
+    "prettier": "^1.9.2"
+  },
+  "dependencies": {
+    "dag-map": "^2.0.2",
+    "execa": "^0.8.0",
+    "inquirer": "^4.0.2",
+    "listr": "^0.13.0"
+  }
 }
