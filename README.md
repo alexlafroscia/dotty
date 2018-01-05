@@ -1,4 +1,4 @@
-# dotty
+# dotty [![Build Status](https://travis-ci.org/alexlafroscia/dotty.svg?branch=master)](https://travis-ci.org/alexlafroscia/dotty)
 
 A tool for declaratively managing your command line tools and configuration
 
