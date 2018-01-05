@@ -1,5 +1,5 @@
 {
-  "name": "dotty",
+  "name": "@alexlafroscia/dotty",
   "version": "1.0.0",
   "description": "Programmatically configure your development environment",
   "main": "index.js",
