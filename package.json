@@ -10,7 +10,7 @@
   },
   "bin": "./index.js",
   "scripts": {
-    "build": "pkg . --targets macos",
+    "build": "pkg . --targets macos --out-path build",
     "lint": "eslint .",
     "test": "ava"
   },
