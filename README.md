@@ -17,7 +17,7 @@ On a system that already has Node installed, you can grab `dotty` as an NPM pack
 A `dotty` task looks something like this:
 
 ```javascript
-tasks/brew.js
+// tasks/brew.js
 module.exports = function(Task) {
   return class Homebrew extends Task {
     constructor() {
@@ -59,8 +59,7 @@ dotty path/to/tasks/directory
 I recommend keeping your tasks in a location where they can easily be synchronized between all of your machines, such as a `dotfiles` repo, iCloud or Dropbox.  For example, on my machine, synchronizing a new machine looks like:
 
 
-```
-bash
+```bash
 dotty $DOTFILES/tasks
 ```
 
