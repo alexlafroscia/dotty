@@ -10,12 +10,10 @@ module.exports = function(Task) {
       return this.exists(this.directories.home, '.oh-my-zsh');
     }
 
-    install() {
-      return this.exec('curl -L http://install.ohmyz.sh | sh');
-    }
+    async install() {
+      await this.exec('curl -L http://install.ohmyz.sh | sh');
 
-    afterInstall() {
-      return this.exec(
+      await this.exec(
         `rm ${this.directories.home}/.oh-my-zsh/themes/pure.zsh-theme`
       );
     }
