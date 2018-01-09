@@ -1,6 +1,6 @@
 {
   "name": "@alexlafroscia/dotty",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Programmatically configure your development environment",
   "main": "index.js",
   "author": "Alex LaFroscia <alex@lafroscia.com>",
