@@ -20,7 +20,7 @@ module.exports = function(Strategy) {
      */
     configure() {
       return this.exec(
-        `ln -sf ${this.directories.dotfiles}/zsh/zshrc ${
+        `ln -sf ${this.directories.home}/.dotfiles/zsh/zshrc ${
           this.directories.home
         }/.zshrc`
       );
