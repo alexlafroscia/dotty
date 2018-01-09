@@ -1,4 +1,6 @@
-# dotty [![Build Status](https://travis-ci.org/alexlafroscia/dotty.svg?branch=master)](https://travis-ci.org/alexlafroscia/dotty)
+# dotty
+[![Build Status](https://travis-ci.org/alexlafroscia/dotty.svg?branch=master)](https://travis-ci.org/alexlafroscia/dotty)
+[![npm version](https://badge.fury.io/js/%40alexlafroscia%2Fdotty.svg)](https://badge.fury.io/js/%40alexlafroscia%2Fdotty)
 
 A tool for declaratively managing your command line tools and configuration
 
